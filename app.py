@@ -98,7 +98,8 @@ with col3:
 with col4:
       st.metric(
             label  = '평균매출',
-            value = f'{average_sales:,}원'
+            value = f'{average_sales:,.0f}원',
+            
       )
 
 st.divider()
